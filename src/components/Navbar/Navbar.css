@@ -98,7 +98,7 @@
         display: block;
         position: absolute;
         top: 15%;
-        right: 0;
+        right: 1em;
         transform: translate(-100%, 60%);
         cursor: pointer;
     }
