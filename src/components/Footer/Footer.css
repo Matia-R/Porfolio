@@ -1,0 +1,44 @@
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid rgba(128, 128, 128, 0.171);
+    justify-content: center;
+}
+
+.footer-stack {
+    justify-content: center;
+    color: rgba(128, 128, 128, 0.644);
+    text-align: center;
+    font-size: 0.75em;
+    text-emphasis: bolder;
+    width: 100%;
+}
+
+.careerTitle {
+    font-style: italic;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+.socials-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding-left: 1.5em;
+}
+
+.fa-envelope, .fa-linkedin, .fa-github {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    color: rgba(128, 128, 128, 0.445);
+    font-size: 1.5em;
+}
