@@ -4,7 +4,9 @@ class Passions extends Component {
 
     render () {
         return (
-            <h1>Passions</h1>
+            <div className="pageTitle">
+                <h1>Passions</h1>
+            </div>
         )
     }
 }
