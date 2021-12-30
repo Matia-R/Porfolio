@@ -1,12 +1,12 @@
 .footer{
-    margin-top: 1rem;
     padding: 1rem;
-    position: fixed;
+    position: static;
     display: flex;
     bottom: 0;
     left: 0;
     width: 100%;
-    border-top: 2px solid rgba(128, 128, 128, 0.171);
+    background-color: #F8F8FF;
+    border-top: solid rgba(128, 128, 128, 0.171);
     justify-content: center;
 }
 
