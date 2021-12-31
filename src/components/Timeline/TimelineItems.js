@@ -40,8 +40,8 @@ let timelineItems = [
         type: "education",
     },
     {
-        title: "Rugby Athlete",
-        organization: "Carleton University",
+        title: "Athlete",
+        organization: "Carleton University Men's Rugby Team",
         location: "Ottawa, ON",
         description:
             "Applied strong communication and rigorous work ethic to play a pivotal role in a 2019 championship victory and successful playoff campaign in the 2021 season. ",

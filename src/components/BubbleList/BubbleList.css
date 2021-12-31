@@ -1,0 +1,18 @@
+.bubble-list-container {
+    margin-top: 1rem
+}
+
+.bubble {
+    background: linear-gradient(90deg, rgba(7,150,255,0.8939950980392157) 3%, rgba(7, 164, 255, 0.931) 50%, rgba(7,150,255,0.8939950980392157) 97%);
+    padding: 8px 20px;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.bubble-text {
+    font-size: 1.5vh;
+    color: white;
+    justify-content: center;
+}
