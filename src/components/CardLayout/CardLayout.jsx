@@ -31,6 +31,7 @@ function CardLayout({ cardItems }) {
                                                     className="card-link" 
                                                     href={item.linkUrl}
                                                     target="_blank"
+                                                    rel="noopener noreferrer"
                                                 >{item.linkText}</a>
                                             </h1>
                                         </Card.Footer>
