@@ -17,3 +17,11 @@
   color: transparent;
   padding-bottom: 0.25em;
 }
+
+@media screen and (max-width: 1024px) {
+
+  .pageTitle {
+      font-size: 4vh;
+  }
+
+}

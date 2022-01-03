@@ -1,0 +1,87 @@
+.msg-box-container {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.container.border {
+    margin-top: 1rem;
+    color: rgb(92, 92, 92);
+    margin-bottom: 1rem;
+    width: 40%;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.msg-box-title {
+    text-align: center;
+}
+
+.msg-box-label {
+    font-weight: bolder;
+    padding: 0;
+    padding: 10px 0 10px 0;
+}
+
+.msg-box-fields {
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.171);
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.msg-box-submit {
+    background: linear-gradient(90deg, rgba(7,150,255,0.8939950980392157) 3%, rgba(7, 164, 255, 0.931) 50%, rgba(7,150,255,0.8939950980392157) 97%);
+    border-radius: 5px;
+    border-color: transparent;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 0 10px 0;
+    font-weight: bolder;
+    font-size: 1rem;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.msg-box-submit:hover {
+    background: linear-gradient(90deg, rgba(7, 152, 255, 0.527) 3%, rgba(7, 164, 255, 0.527) 50%, rgba(7, 152, 255, 0.527) 97%);;
+}
+
+.socials-title {
+    font-weight: bolder;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.445);
+    padding-top: 3rem;
+}
+
+#form-submit-msg {
+    display: none;
+}
+
+#form-submit-msg.show {
+    display: block;
+    border-radius: 5px;
+    background: rgba(7, 164, 255, 0.376);
+    padding: 10px 5px 10px 5px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+
+    .container.border {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .container.border {
+        width: 70%;
+    }
+
+}

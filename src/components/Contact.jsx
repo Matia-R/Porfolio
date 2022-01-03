@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import MessageBox from './MessageBox/MessageBox';
 
 class Contact extends Component {
 
     render () {
         return (
-            <h1>Contact</h1>
+            <div>
+                <MessageBox/>
+            </div>
         )
     }
 }

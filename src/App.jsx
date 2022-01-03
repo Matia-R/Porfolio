@@ -2,10 +2,10 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home";
+//import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects/Projects";
-import Passions from "./components/Passions";
+import Passions from "./components/Passions/Passions";
 import Contact from "./components/Contact";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
         <Navbar/>
         <div className="content">
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/experience" element={<Experience/>}/>
+            {'<Route path="/" element={<Home/>}/>'}
+            <Route path="/" element={<Experience/>}/>
             <Route path="/projects" element={<Projects/>}/>
             <Route path="/passions" element={<Passions/>}/>
             <Route path="/contact" element={<Contact/>}/>

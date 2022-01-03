@@ -23,7 +23,7 @@ function CardLayout({ cardItems }) {
                                             <Card.Text className="cardDescription">
                                                 {item.description}
                                             </Card.Text>
-                                            <BubbleList bubbleItems={item.stack}/>
+                                            <BubbleList bubbleItems={item.tags}/>
                                         </Card.Body>
                                         <Card.Footer className="card-footer">
                                             <h1 className="card-link-heading">

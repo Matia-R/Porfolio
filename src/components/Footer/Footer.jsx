@@ -19,7 +19,7 @@ class Footer extends Component {
                                 </li>
                             )
                         })}
-                </ul>
+                    </ul>
                 </div>
             </nav>
         )
