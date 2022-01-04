@@ -1,15 +1,5 @@
 let timelineItems = [
     {
-        title: "Co-Founder",
-        organization: "Advantage Academy Tutoring",
-        location: "Ottawa, ON",
-        description:
-            "Building and maintaining the company website as well as hiring and managing a team of tutors, overseeing schedules and forming teaching strategies for Zoom lessons. Developing automation for invoice creation and payroll processes with Google Apps Scripts.",
-        buttonText: "View Backend Projects",
-        date: "September 2020 - Present",
-        type: "work",
-    },
-    {
         title: "QA Automation Developer",
         organization: "Ciena",
         location: "Ottawa, ON",
@@ -17,6 +7,16 @@ let timelineItems = [
           "Worked as a QA Automation Developer within Ciena's web-based Manage Control and Plan (MCP) application team. Developed Postman test automation in JavaScript and monitored nightly regression builds in the TeamCity CI tool. Worked in an Agile scrum environment and held sprint demos with QA and Design teams. Discovered and investigated software defects for MCP's Liquid Spectrum Services application.",
         buttonText: "View Frontend Projects",
         date: "May 2021 - Present",
+        type: "work",
+    },
+    {
+        title: "Co-Founder",
+        organization: "Advantage Academy Tutoring",
+        location: "Ottawa, ON",
+        description:
+            "Building and maintaining the company website as well as hiring and managing a team of tutors, overseeing schedules and forming teaching strategies for Zoom lessons. Developing automation for invoice creation and payroll processes with Google Apps Scripts.",
+        buttonText: "View Backend Projects",
+        date: "September 2020 - Present",
         type: "work",
     },
     {
