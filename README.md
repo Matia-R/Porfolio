@@ -6,7 +6,7 @@ This is a simple React portfolio website that showcases my professional experien
 
 ## Getting Started
 
-This site is hosted at matiaraspopopovuc.ca where you can see the most up to date production build. Alternatively, if you'd like to run the app yourself, feel free to clone this repo and follow the dependency and installation guidelines provided. 
+This site is hosted at https://matiaraspopovic.ca where you can see the most up to date production build. Alternatively, if you'd like to run the app yourself, feel free to clone this repo and follow the dependency and installation guidelines provided. 
 
 ### Dependencies
 
