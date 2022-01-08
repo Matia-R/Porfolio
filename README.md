@@ -21,9 +21,7 @@ This site is hosted at matiaraspopopovuc.ca where you can see the most up to dat
 ### Installing
 
 * To get started, clone this repository onto your machine 
-* Node.js, React.js and a few React libraries are required to run this app.
-* To start, if you do not have Node.js installed, please download and install it from [here](https://nodejs.org/en/download/).
-* Once you have Node installed, navigate to the project directory.
+* If you do not have Node.js installed, please download and install it from [here](https://nodejs.org/en/download/)
 * To install react and all necessary dependencies, enter the following command for each dependency:
 
 ```
@@ -52,7 +50,7 @@ matia@raspopovic.ca | https://www.linkedin.com/in/matiaraspopovic/ | https://git
 
 ## Version History
 
-* 0.1
+* 1.0
     * Initial Release
 
 ## Acknowledgments
