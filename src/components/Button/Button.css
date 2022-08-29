@@ -23,6 +23,17 @@
     background-color: var(--primary);
 }
 
+.btn-solid {
+    background-color: #552fffd1;
+    color: #fff;
+    font-size: large;
+    margin: 1.5em;
+}
+
+.btn-solid:hover {
+    background-color: #552fff84;
+}
+
 .btn--outline {
     background-color: transparent;
     color: #fff;
@@ -45,3 +56,12 @@
     font-size: 20px;
     color: #5d39ff;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .btn-solid {
+        margin: none;
+        font-size: small;
+    }
+  
+  }

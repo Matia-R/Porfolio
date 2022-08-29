@@ -1,0 +1,30 @@
+.typeAnimationWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.heroContent {
+    padding-top: 1.5em;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-size: larger;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .btn-solid {
+        display: unset;
+    }
+
+    .hero-content {
+        font-size: medium;
+    }
+
+}
+
+/*
+TODO: make condiitonal padding-bottom for display sizes < 1024px (so that footer stays on bottom)
+Also make adjustments to typeanimation font size for smaller displays -> paddign left and right to keep in center
+*/
+
