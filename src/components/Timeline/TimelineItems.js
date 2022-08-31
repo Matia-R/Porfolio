@@ -1,12 +1,22 @@
 let timelineItems = [
     {
-        title: "QA Automation Developer",
+        title: "Software Developer Intern",
+        organization: "Geotab",
+        location: "Waterloo, ON (Remote)",
+        description:
+          "Worked as a Software Developer Intern within Geotab's Partner Integrations team. Developed middleware for a data ingestion pipeline using C# and .NET Core. Contributed to API design and made improvements to platform security and architecture. Designed and implemented performant algorithms for processing third-party vehicle metrics.",
+        buttonText: "View Frontend Projects",
+        date: "May 2022 - August 2022",
+        type: "work",
+    },
+    {
+        title: "QA Automation Developer Intern",
         organization: "Ciena",
         location: "Ottawa, ON",
         description:
-          "Worked as a QA Automation Developer within Ciena's web-based Manage Control and Plan (MCP) application team. Developed Postman test automation in JavaScript and monitored nightly regression builds in the TeamCity CI tool. Worked in an Agile scrum environment and held sprint demos with QA and Design teams. Discovered and investigated software defects for MCP's Liquid Spectrum Services application.",
+          "Worked as a QA Automation Developer Intern within Ciena's web-based Manage Control and Plan (MCP) application team. Developed Postman test automation in JavaScript and monitored nightly regression builds in the TeamCity CI tool. Worked in an Agile scrum environment and held sprint demos with QA and Design teams. Discovered and investigated software defects for MCP's Liquid Spectrum Services application.",
         buttonText: "View Frontend Projects",
-        date: "May 2021 - Present",
+        date: "May 2021 - December 2021",
         type: "work",
     },
     {

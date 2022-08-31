@@ -20,12 +20,12 @@ let projectItems = [
         imgUrl: process.env.PUBLIC_URL + '/img/advantage_academy_img.png',
         description: "Advantage Academy is an online tutoring business I co-founded with the goal of providing safe and affordable assistance to high school students during the Covid-19 pandemic. Since our launch in 2020, our client base has quadrupled, and we’ve been fortunate enough to welcome a second and third wave of tutors to our team. In addition to managing our tutoring team, I’ve leveraged my technical background to build and maintain the company website as well as devise automated solutions to our billing and payroll processes. Going forward we plan to expand the business to reach more high schools across the province and eventually offer services to university students.",
         tags: [
-            "JavaScript",
-            "Google Apps Scripts",
+            "TypeScript",
+            "Express.js",
+            "Google Developer APIs",
             "Webflow",
             "HTML5",
-            "CSS",
-            "Google Sheets"
+            "CSS"
         ],
         linkUrl: "https://www.advantageacademy.ca/",
         linkText: "Visit Website"

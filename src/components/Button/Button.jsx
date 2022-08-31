@@ -4,6 +4,7 @@ import './Button.css'
 
 const STYLES = [
     'btn-primary',
+    'btn-solid',
     'btn-outline'
 ]
 
