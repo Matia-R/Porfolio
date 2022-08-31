@@ -18,11 +18,8 @@ class Home extends Component {
                             1000, // Waits 2s
                             'A dedicated Computer Science student.',
                             1000,
-                            'An innovative entreprenueur.',
-                            1000,
-                            () => {
-                            console.log('Done typing!'); // Place optional callbacks anywhere in the array
-                            }
+                            'An creative entreprenueur.',
+                            1000
                         ]}
                         wrapper="div"
                         cursor={true}
@@ -34,16 +31,26 @@ class Home extends Component {
                 </div>
                 <div class="heroContent">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Hi! I’m a software developer and third-year computer science student at Carleton University (graduation date: May 2024). 
+                    I’ve worked as a Software Developer Intern at Ciena and Geotab, where I’ve contributed to API design, developed automation, and improved security and infrastructure for backend web services. 
+                    At heart, I’m passionate about web development, and I’m eager to work on all areas of the stack. 
+                    </p>
+                    <p style={ {padding: '1rem'} }>
+                    Please consider exploring this portfolio, downloading my resume, or messaging me if you'd like to know more. I’m always excited to meet new people and explore new opportunities!  
                     </p>
                     <Button
                         className='btn-solid' 
                         onClick={(e) => {
-                        e.preventDefault();
-                        window.location.href='/contact';
+                            var element = document.createElement('a');
+                            element.download = 'Matia Raspopovic Resume.pdf';
+                            element.href = process.env.PUBLIC_URL + '/files/Matia_Raspopovic_Resume.pdf';
+
+                            element.style.display = 'none';
+                            document.body.appendChild(element);
+
+                            element.click();
+
+                            document.body.removeChild(element);
                     }}>Download Resume
                 </Button>
                 </div>
