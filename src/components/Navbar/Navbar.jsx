@@ -18,7 +18,7 @@ class Navbar extends Component {
                     onClick={(e) => {
                         e.preventDefault();
                         window.location.href='/';
-                    }}>Matia Raspopopvic
+                    }}>Matia Raspopovic
                 </h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>

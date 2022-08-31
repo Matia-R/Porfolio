@@ -14,11 +14,11 @@ class Home extends Component {
                 <div class="typeAnimationWrapper">
                     <TypeAnimation
                         sequence={[
-                            'A passionate Software Developer.', // Deletes 'One' and types 'Two'
+                            'Software Developer.', // Deletes 'One' and types 'Two'
                             1000, // Waits 2s
-                            'A dedicated Computer Science student.',
+                            'Computer Science student.',
                             1000,
-                            'An creative entreprenueur.',
+                            'Entreprenueur.',
                             1000
                         ]}
                         wrapper="div"
