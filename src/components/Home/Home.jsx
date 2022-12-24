@@ -33,7 +33,7 @@ class Home extends Component {
                     <p>
                     Hi! I’m a software developer and third-year computer science student at Carleton University (graduation date: May 2024). 
                     I’ve worked as a Software Developer Intern at Ciena and Geotab, where I’ve contributed to API design, developed automation, and improved security and infrastructure for backend web services. 
-                    At heart, I’m passionate about web development, and I’m eager to work on all areas of the stack. 
+                    At heart, I’m passionate about software, and I’m eager to work on all areas of the stack. 
                     </p>
                     <p style={ {padding: '1rem'} }>
                     Please consider exploring this portfolio, downloading my resume, or messaging me if you'd like to know more. I’m always excited to meet new people and explore new opportunities!  

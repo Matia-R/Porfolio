@@ -1,5 +1,15 @@
 let timelineItems = [
     {
+        title: "Web Developer Intern",
+        organization: "Nokia",
+        location: "Ottawa, ON",
+        description:
+          "Working as a front-end developer within Nokia's NSP application team.",
+        buttonText: "View Frontend Projects",
+        date: "January 2023 - Present",
+        type: "work",
+    },
+    {
         title: "Software Developer Intern",
         organization: "Geotab",
         location: "Waterloo, ON (Remote)",
