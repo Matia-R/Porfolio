@@ -9,55 +9,55 @@ import timelineItems from "./TimelineItems";
 
 function Timeline() {
 
-    let workIconStyle = {background: "rgba(0,149,255)"};
-    let educationIconStyle = {background: "rgb(9, 241, 237)"};
-    let extracurricularIconStyle = {background: "rgb(113, 89, 219)"};
+    let workIconStyle = { background: "rgba(0,149,255)" };
+    let educationIconStyle = { background: "rgb(9, 241, 237)" };
+    let extracurricularIconStyle = { background: "rgb(113, 89, 219)" };
 
     return (
-       <div className="timelineContainer">
-           <VerticalTimeline>
-               {
-                   timelineItems.map((item, index) => {
-                        
+        <div className="timelineContainer">
+            <VerticalTimeline>
+                {
+                    timelineItems.map((item, index) => {
+
                         let iconStyle, icon;
 
                         switch (item.type) {
                             default:
                                 iconStyle = workIconStyle;
-                                icon = <WorkIcon/>;
+                                icon = <WorkIcon />;
                                 break;
                             case "work":
                                 iconStyle = workIconStyle;
-                                icon = <WorkIcon/>;
+                                icon = <WorkIcon />;
                                 break;
                             case "education":
                                 iconStyle = educationIconStyle;
-                                icon = <EducationIcon/>;
+                                icon = <EducationIcon />;
                                 break;
                             case "extracurricular":
                                 iconStyle = extracurricularIconStyle;
-                                icon = <ExtracurricularIcon/>;
+                                icon = <ExtracurricularIcon />;
                                 break;
                         }
 
                         return (
-                            <VerticalTimelineElement 
-                                key={index} 
+                            <VerticalTimelineElement
+                                key={index}
                                 date={item.date}
                                 dateClassName="date"
                                 iconStyle={iconStyle}
                                 icon={icon}
                             >
-                                <h3 className="vertical-timeline-element-title">{item.title}</h3>
-                                <h5 className="vertical-timeline-element-subtitle">{item.organization}</h5>
-                                <h5 className="vertical-timeline-element-subtitle">{item.location}</h5>
-                                <p className="descriptions" id="description">{item.description}</p>
+                                <h3>{item.title}</h3>
+                                <h5>{item.organization}</h5>
+                                <h5>{item.location}</h5>
+                                <p style={{ fontWeight: 'bolder' }}>{item.description}</p>
                             </VerticalTimelineElement>
                         );
                     })
-               } 
-           </VerticalTimeline>
-       </div> 
+                }
+            </VerticalTimeline>
+        </div>
     )
 }
 

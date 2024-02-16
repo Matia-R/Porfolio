@@ -10,15 +10,15 @@ class Navbar extends Component {
         this.setState({ clicked: !this.state.clicked }) //flip clicked state
     }
 
-    render () {
+    render() {
         return (
             <nav className="NavbarItems">
-                <h1 
-                    className="navbar-logo" 
+                <h1
+                    className="navbar-logo"
                     onClick={(e) => {
                         e.preventDefault();
-                        window.location.href='/';
-                    }}>Matia Raspopopvic
+                        window.location.href = '/';
+                    }}>Matia Raspopovic
                 </h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -33,10 +33,10 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button 
+                <Button
                     onClick={(e) => {
                         e.preventDefault();
-                        window.location.href='/contact';
+                        window.location.href = '/contact';
                     }}>Contact
                 </Button>
             </nav>
